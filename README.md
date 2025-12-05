@@ -83,34 +83,34 @@ Il progetto segue il modello **CRISP-DM**, che comprende:
 Ogni passaggio è documentato nei notebook e nella relazione finale.
 
 ---
-
 ## 📂 Struttura del repository
 
-easy-finances-AI/
-│
-├── data/
-│ ├── raw/ # dati originali
-│ └── processed/ # dati puliti e feature-ready
-│
-├── notebooks/
-│ ├── EDA.ipynb # analisi esplorativa
-│ ├── regression.ipynb # pipeline A
-│ └── classification.ipynb # pipeline B
-│
-├── src/
-│ ├── preprocessing.py
-│ ├── regression_models.py
-│ ├── classification_models.py
-│ └── utils.py
-│
-├── report/
-│ └── main.tex # relazione in LaTeX
-│
-├── models/ # modelli addestrati (opzionale)
-│
-└── README.md
+  ```bash
+  easy-finances-AI/
+  │
+  ├── data/
+  │   ├── raw/            # dati originali
+  │   └── processed/      # dati puliti e feature-ready
+  │
+  ├── notebooks/
+  │   ├── EDA.ipynb       # analisi esplorativa
+  │   ├── regression.ipynb    # pipeline A
+  │   └── classification.ipynb  # pipeline B 
+  │
+  ├── src/
+  │   ├── preprocessing.py
+  │   ├── regression_models.py
+  │   ├── classification_models.py
+  │   └── utils.py
+  │
+  ├── report/
+  │   └── main.tex        # relazione in LaTeX
+  │
+  ├── models/             # modelli addestrati (opzionale)
+  │
+  └── README.md
+  ```
 ---
-
 ## 📦 Tecnologie utilizzate
 
 - Python 3  
