@@ -106,7 +106,6 @@ Ogni passaggio è documentato nei notebook e nella relazione finale.
   ├── report/
   │   └── main.tex        # relazione in LaTeX
   │
-  ├── models/             # modelli addestrati (opzionale)
   │
   └── README.md
   ```
